@@ -9,14 +9,17 @@
     "lint": "eslint ./*.js",
     "lint:fix": "eslint --fix ./*{.js,.test.js}"
   },
-  "keywords": [],
+  "keywords": [
+    "logger",
+    "colors",
+    "json",
+    "simple"
+  ],
   "author": "Ivan Betanzos Macias",
   "repository": {
-    "directory": "",
-    "url": "",
-    "type": ""
+    "url": "git+https://github.com/iv4n89/Pollito.git",
+    "type": "git"
   },
-  "badges": [],
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.46.0",
