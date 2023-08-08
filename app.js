@@ -63,7 +63,7 @@ export default class Pollito {
   }
 
   /**
-   *
+   * Create and register a new Pollito instance
    * @param {{
    * instanceName: string,
    * stringColor?: ('normal yellow'|'bright yellow'|'normal blue'|'bright blue'|'normal red'|'bright red'|'normal cyan'|'bright cyan'|'normal green'|'bright green'|'normal magenta'|'bright magenta'),
@@ -117,7 +117,7 @@ export default class Pollito {
   }
 
   /**
-    *
+    * Modify the text color for string watching
     * @param {('normal yellow'|'bright yellow'|'normal blue'|'bright blue'|'normal red'|'bright red'|'normal cyan'|'bright cyan'|'normal green'|'bright green'|'normal magenta'|'bright magenta')} color
     */
   setWatchColor (color) {
@@ -125,7 +125,7 @@ export default class Pollito {
   }
 
   /**
-    *
+    * Modify the background for the string watching
     * @param {('normal black'| 'bright black' | 'normal red' | 'bright red' | 'normal green' | 'bright green' | 'normal yellow' | 'bright yellow' | 'normal blue' | 'bright blue' | 'normal magenta' | 'bright magenta' | 'normal cyan' | 'bright cyan' | 'normal white' | 'bright white')} bg
     */
   setWatchBg (bg) {
@@ -133,7 +133,7 @@ export default class Pollito {
   }
 
   /**
-    *
+    * Modify the string to watch
     * @param {string} string
     */
   setWatchString (string) {
@@ -141,7 +141,7 @@ export default class Pollito {
   }
 
   /**
-    *
+    * Modify all watching options
     * @param {{
     *  string: string,
     *  watchColor?: ('normal yellow'|'bright yellow'|'normal blue'|'bright blue'|'normal red'|'bright red'|'normal cyan'|'bright cyan'|'normal green'|'bright green'|'normal magenta'|'bright magenta'),
@@ -155,7 +155,7 @@ export default class Pollito {
   }
 
   /**
-    *
+    * Method to print an array
     * @private
     * @param {any[]} array The value
     * @param {string} color The text color
@@ -191,7 +191,7 @@ export default class Pollito {
   }
 
   /**
-    *
+    * Method to print an object
     * @private
     * @param {Object} object
     * @param {number} level
@@ -248,7 +248,7 @@ export default class Pollito {
   }
 
   /**
-    *
+    * Replace the string slice with the format string watched
     * @private
     * @param {string|any[]|Object} value
     * @param {('normal black'| 'bright black' | 'normal red' | 'bright red' | 'normal green' | 'bright green' | 'normal yellow' | 'bright yellow' | 'normal blue' | 'bright blue' | 'normal magenta' | 'bright magenta' | 'normal cyan' | 'bright cyan' | 'normal white' | 'bright white')} background
@@ -285,7 +285,7 @@ export default class Pollito {
   }
 
   /**
-    *
+    * Log something with the options provided
     * @param  {...string[]} str
     */
   log (...str) {
@@ -325,7 +325,7 @@ export default class Pollito {
   }
 
   /**
-    *
+    * Log something with date
     * @param {string|any[]|object} value
     * @param {{
     *  dateFormat?: ('string'|'localeString'|'miliseconds'),
@@ -358,7 +358,7 @@ export default class Pollito {
   }
 
   /**
-    *
+    * Just show the object without formats
     * @param {any} value
     * @returns {string} The stringify string result
     */
