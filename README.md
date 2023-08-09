@@ -1,7 +1,7 @@
 # Pollito
 ### A simple colorized logger
 
-Pollito is a very simple logger (an app that writes to the output of our terminal) with some color customizations.
+Pollito is a very simple logger with some color customizations.
 
 ### How to use:
 
